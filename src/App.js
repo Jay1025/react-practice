@@ -22,7 +22,7 @@ const App = React.memo(() => {
     }
   }
 
-  //promise, setTimeout, async/await
+  //******* setTimeout *********
   // function happy(sec, second) {
   //   for (let i = 0; i <= sec; i++) {
   //     setTimeout(() => {
@@ -32,6 +32,7 @@ const App = React.memo(() => {
   // }
   // happy(3, 1000);
 
+  //******* Promise *********
   // function birthday(sec, second) {
   //   for (let i = 0, pending = Promise.resolve(); i <= sec; i++) {
   //     pending = pending
@@ -49,6 +50,7 @@ const App = React.memo(() => {
   // }
   // birthday(10, 1000);
 
+  //******* async/await *********
   // const timer = (ms) => new Promise((res) => setTimeout(res, ms));
   // async function processArray(sec, second) {
   //   for (let i = 0; i <= sec; i++) {
