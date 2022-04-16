@@ -61,7 +61,7 @@ const App = React.memo(() => {
   // processArray(5, 1000);
   return (
     <Body>
-      <h1>Hello TODO</h1>
+      <h1>TODO List</h1>
       <NewTaskForm setTasks={setTasks} tasks={tasks} />
       <CountList>
         <span>전체: {tasks.length}</span>
