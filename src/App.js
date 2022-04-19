@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-import NewTaskForm from "./NewTaskForm";
-import TaskList from "./TastList";
+import NewTaskForm from "./views/NewTaskForm";
+import TaskList from "./views/TastList";
 
 const data = [
   { id: "1", title: "서비스 개발팀 회의 내용 정리", done: false },
